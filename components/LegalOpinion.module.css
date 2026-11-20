@@ -11,36 +11,13 @@
 }
 
 .logo-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   margin-bottom: 1.5rem;
 }
 
-.logo-mark {
-  display: flex;
-  gap: 3px;
-  align-items: flex-end;
-}
-
-.lm-bar {
-  width: 7px;
-  border-radius: 3px;
-  background: var(--red);
-}
-
-.logo-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-}
-
-.logo-sub {
-  font-size: 9px;
-  letter-spacing: 0.15em;
-  color: var(--muted);
-  font-weight: 400;
+.logo-img {
+  display: block;
+  height: 40px;
+  width: auto;
 }
 
 .doc-kicker {
