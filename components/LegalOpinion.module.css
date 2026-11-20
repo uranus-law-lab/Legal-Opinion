@@ -30,7 +30,7 @@
 }
 
 .logo-text {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -53,9 +53,9 @@
 }
 
 .doc-title {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
   color: var(--dark);
   margin-bottom: 0.4rem;
@@ -102,17 +102,17 @@
 }
 
 .section-num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--red);
   min-width: 24px;
 }
 
 .section-title {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--dark);
 }
 

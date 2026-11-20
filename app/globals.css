@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
 
 :root {
-  --red: #C0392B;
+  --red: #DC3833;
   --red-light: #fdf0ef;
   --red-border: #e8b4b0;
   --green-light: #f0faf4;
@@ -10,7 +10,7 @@
   --amber-border: #e8d08a;
   --dark: #1a1a1a;
   --muted: #555;
-  --subtle: #888;
+  --subtle: #6B6B6B;
   --line: #e0e0e0;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--dark);
   background: transparent;
 }
