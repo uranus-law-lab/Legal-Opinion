@@ -1,22 +1,20 @@
 'use client';
 
 import styles from './LegalOpinion.module.css';
+import logo from './logo-haas-avocats.jpg';
 
 export default function LegalOpinion() {
   return (
     <div className={styles.doc}>
       <div className={styles['doc-header']}>
         <div className={styles['logo-row']}>
-          <div className={styles['logo-mark']}>
-            <div className={styles['lm-bar']} style={{ height: '22px' }}></div>
-            <div className={styles['lm-bar']} style={{ height: '16px', marginTop: '6px' }}></div>
-            <div className={styles['lm-bar']} style={{ height: '22px' }}></div>
-            <div className={styles['lm-bar']} style={{ height: '12px', marginTop: '10px' }}></div>
-          </div>
-          <div>
-            <div className={styles['logo-text']}>haas</div>
-            <div className={styles['logo-sub']}>AVOCATS</div>
-          </div>
+          <img
+            className={styles['logo-img']}
+            src={logo.src}
+            width={logo.width}
+            height={logo.height}
+            alt="HAAS Avocats"
+          />
         </div>
 
         <div className={styles['doc-kicker']}>Legal Opinion — Confidentiel</div>
